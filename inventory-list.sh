@@ -10,14 +10,14 @@ aws ec2 describe-regions --query "Regions[].RegionName" --output text | tr '\t' 
   done
 done
 
-echo "####### CodePipeline - $account_alias - $account_id #######"
+echo -e "\n\n####### CodePipeline - $account_alias - $account_id #######"
 aws ec2 describe-regions --query "Regions[].RegionName" --output text | tr '\t' '\n' | while read region; do
     pipelines=$(aws codepipeline list-pipelines --region $region --query "pipelines[].name" --output text)
 
     if [ -n "$pipelines" ]; then
         for pipeline in $pipelines; do
-            echo "$region - $pipeline"
-            aws codepipeline get-pipeline --name $pipeline --query "pipeline.stages[?name=='Source']" --output json --no-cli-pager
+            echo "arn:aws:codepipeline:$region:$account_id:$pipeline"
+            aws codepipeline get-pipeline --region $region --name $pipeline --query "pipeline.stages[?name=='Source']" --output json --no-cli-pager
             echo -e "\n"
         done
     fi
