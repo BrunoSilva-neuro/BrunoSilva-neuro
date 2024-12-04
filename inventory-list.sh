@@ -23,7 +23,7 @@ aws ec2 describe-regions --query "Regions[].RegionName" --output text | tr '\t' 
     if [ -n "$pipelines" ]; then
         for pipeline in $pipelines; do
             echo "$region - $pipeline"
-            aws codepipeline get-pipeline --name codepipeline-riskpack-batch-api-master --query "pipeline.stages[?name=='Source']" --output json --no-cli-pager
+            aws codepipeline get-pipeline --name $pipeline --query "pipeline.stages[?name=='Source']" --output json --no-cli-pager
             echo -e "\n"
         done
     fi
