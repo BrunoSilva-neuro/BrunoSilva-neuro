@@ -12,12 +12,6 @@ done
 
 echo "####### CodePipeline - $account_alias - $account_id #######"
 aws ec2 describe-regions --query "Regions[].RegionName" --output text | tr '\t' '\n' | while read region; do
-  aws codecommit list-repositories --region $region --query "repositories[].repositoryName" --output text | tr '\t' '\n' | while read repo; do
-    echo "arn:aws:codecommit:$region:$account_id:$repo"
-  done
-done
-
-aws ec2 describe-regions --query "Regions[].RegionName" --output text | tr '\t' '\n' | while read region; do
     pipelines=$(aws codepipeline list-pipelines --region $region --query "pipelines[].name" --output text)
 
     if [ -n "$pipelines" ]; then
