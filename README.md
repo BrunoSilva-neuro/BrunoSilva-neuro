@@ -1,10 +1,8 @@
-# Olá 👋, eu sou o Bruno Silva
+# Olá 👋, eu sou o Bruno Silva, mas pode me chamar de Cabeça 😬
 
 ### Tech Manager @ Trillia
 
 *"Apaixonado por sistemas distribuídos, arquitetura de software e trocadilhos ruins."*
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=BrunoSilva-neuro&label=Profile views&color=0e75b6&style=flat" alt="BrunoSilva-neuro" /> </p>
 
 <table>
   <tr>
@@ -37,4 +35,19 @@
 </p>
 
 <h3 align="left">Linguagens e Ferramentas:</h3>
-<p align="left"> <img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=go" alt="go" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=grafana" alt="grafana" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=kafka" alt="kafka" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=go" alt="go" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=grafana" alt="grafana" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=kafka" alt="kafka" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/>
+</p>
